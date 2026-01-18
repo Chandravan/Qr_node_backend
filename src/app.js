@@ -7,7 +7,7 @@ import cookieParser from "cookie-parser";
 const app = express()
 app.use(cors({
     origin: "*", // Aapke React ka URL
-    credentials: true                // Taaki cookies (auth) kaam kar sakein
+                   // Taaki cookies (auth) kaam kar sakein
 }));
 
 app.use(express.json())
